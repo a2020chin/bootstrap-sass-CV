@@ -5,11 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/stylesheets/all.css">
+    <link rel="stylesheet" href="/bootstrap-sass-CV/stylesheets/all.css">
+    <style>
+        .deco-box{
+            height: 240px;
+            width: 240px;
+            background-color: var(--bs-secondary);
+        }
+        .bg-cover{
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .bg-attachment-fixed{
+            background-attachment: fixed;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <a href="#" class="btn btn-primary">按鈕</a>
-    </div>
+    <header class="min-vh-100 position-relative">
+        <div class="deco-box position-absolute top-0 start-0"></div>
+        <div class="deco-box position-absolute bottom-0 end-0"></div>
+        <div class="position-absolute bg-cover bg-attachment-fixed" 
+        style="top: 30px; left: 30px; right: 30px; bottom: 30px;
+        background-image: url(https://images.unsplash.com/photo-1612282130134-49784d98ac61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1818&q=80);"></div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+            <h1 class="display-1 fw-bold">陳 六角</h1>
+            <hr class="mb-1 mx-n3">
+            <h2>Hex Chen</h2>
+            <p>愛、勇氣與永不放棄的心</p>
+        </div>
+    </header>
+    
 </body>
 </html>

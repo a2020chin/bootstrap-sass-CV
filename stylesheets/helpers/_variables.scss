@@ -67,8 +67,8 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:     #971cc3;
+$secondary:   #71ddff;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -349,7 +349,7 @@ $enable-cssgrid:              false !default;
 $enable-button-pointers:      true !default;
 $enable-rfs:                  true !default;
 $enable-validation-icons:     true !default;
-$enable-negative-margins:     false !default;
+$enable-negative-margins:     true !default;
 $enable-deprecation-messages: true !default;
 $enable-important-utilities:  true !default;
 
